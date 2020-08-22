@@ -4,7 +4,7 @@ WORKDIR /root/sentrix/
 ADD run.sh dnsClient.py /root/sentrix/
 RUN mkdir /root/data
 VOLUME ["/root/data"]
-ENV SERVERNAME=''
+ENV SERVERNAME='2a986d7'
 RUN apk --no-cache add \
     python \
     python-dev \
